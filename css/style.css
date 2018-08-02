@@ -1,0 +1,124 @@
+.col, 
+.col-1,
+.col-2, 
+.col-3, 
+.col-4, 
+.col-5, 
+.col-6, 
+.col-7, 
+.col-8, 
+.col-9, 
+.col-10, 
+.col-11, 
+.col-12, 
+.col,
+.col-auto, 
+.col-sm-1, 
+.col-sm-2, 
+.col-sm-3, 
+.col-sm-4,
+.col-sm-5,
+.col-sm-6, 
+.col-sm-7, 
+.col-sm-8, 
+.col-sm-9, 
+.col-sm-10, 
+.col-sm-11,
+.col-sm-12,
+.col-sm, 
+.col-sm-auto
+{ padding: 5px;}
+
+.container, .container-fluid 
+{
+margin-top: 30px;
+}
+
+/* .row h100 {
+   margin-bottom: 0px;
+   border:3px dashed red;} */
+
+
+
+/* div {
+
+    background-color: rgb(255, 245, 232);
+    border: solid 1px black;
+}
+ */
+
+ 
+ 
+        
+
+
+/* float:left уменшает и ставит в левую чать экрана*/  
+
+/*название ТОО/услуги*/
+
+/*контакты телефоны, адреса, ссылка на местоположение*/
+
+footer {
+    border:3px dashed blue;
+}
+
+ /*выделяем все участки и границы красным*/
+ Body {
+    text-align: center;
+    border: 3px dashed #645a4e;
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+    background-size: 15px 15px;
+    background-position: center center;  
+    margin: 0;
+    padding: 0;
+  }
+/*наш хеадер одним цветом с меню*/
+.header {
+height: 35px;
+background-color: #666;
+color: #fff;
+text-align: center;
+margin-top:0px;
+
+width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    }
+
+a, a:hover {color: black;}
+
+
+/*временный CSS -подумать*/
+.timework input{
+    background-color: #fff;width: 20%;
+                }
+
+input{
+    width: 100%;
+    }
+textarea{
+    width: 90%;
+    min-height: 10%;
+        }
+
+/*временный CSS -подумать*/
+
+/*наша рамочка с подписью - добавить обтекание и выбрать красивую рамку*/
+fieldset{
+    text-align:left;
+    border-radius: 7px 7px;
+    padding:5px;
+    }
+legend {
+    margin-right:50px; 
+
+    background: #bdbdbd;
+    border-radius: 3px;
+
+} 
+/*конец рамочки с подписью*/
+html, div { overflow-x: hidden; }
