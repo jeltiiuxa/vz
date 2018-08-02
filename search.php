@@ -2,7 +2,9 @@
 <?php include 'includes/menu.php'; ?>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
+<style>
 
+    </style>
 
 <div class="search">
     <input type="text" placeholder="что ищем? =)">
@@ -26,6 +28,7 @@ d:\laragon\www\vz (master)<br>
 λ git push<br>
 git pull<br>
 </code>
+
 
 
 <?php include 'includes/footer.php'; ?>

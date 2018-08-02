@@ -5,7 +5,6 @@
 <div class="container">
     <div class="row">
         Что Вы хотите добавить?              
-        <body>
             <form action="addorgindb.php" method="POST" >
                 <div class="vizitka"> 
                     <fieldset> 
@@ -16,40 +15,36 @@
                             <fieldset> 
                                 <legend align="left">
                                 Время работы
-                                </legend>
-                                <div class="timework"> 
+                                </legend>                               
                                     <div class="row">
-                                        <div class="col-1">
+                                    <div class="col-1">
                                         &nbsp;
                                         </div>
                                         <div class="col-1">
-                                        c
+                                        с
+                                        </div>                                       
+                                        <div class="col-4">
+                                        <input type="time"placeholder="время работы" name="timework8" >
                                         </div>
-                                        <div class="col-10">
-                                        <input type="time"placeholder="время работы" name="timework8" ><br>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1">
-                                        &nbsp;
-                                        </div>
+                                        
                                         <div class="col-1">
                                         по
                                         </div>
-                                        <div class="col-10">
+                                        <div class="col-4">
                                             <input type="time"placeholder="время работы" name="timework9"> <br>
                                         </div>
                                     </div>
+                                    <div class="row">                                      
+                                    </div>
                                         <div>
-                                        <input type="checkbox" name="timework1"  checked>понедельник<br>
-                                            <input type="checkbox" name="timework2"  checked>Вторник<br>
-                                            <input type="checkbox" name="timework3"  checked>Среда<br>
-                                            <input type="checkbox" name="timework4" checked>Четверг<br>
-                                            <input type="checkbox" name="timework5"  checked>Пятница<br>
-                                            <input type="checkbox" name="timework6"  >Суббота<br>
-                                            <input type="checkbox" name="timework7"  >Воскресенье<br>
-                                        </div>
-                                </div>
+                                            <input type="checkbox" name="timework1"  checked>Пн
+                                            <input type="checkbox" name="timework2"  checked>Вт
+                                            <input type="checkbox" name="timework3"  checked>Ср
+                                            <input type="checkbox" name="timework4" checked>Чтв
+                                            <input type="checkbox" name="timework5"  checked>Птн
+                                            <input type="checkbox" name="timework6"  >Сб
+                                            <input type="checkbox" name="timework7"  >Вскр
+                                        </div>                               
                             </fieldset>
                         <!-- время работы-->
                         <!-- КОНТАКТЫ-->
@@ -117,7 +112,6 @@
                     </fieldset>
                 </div>
             </form>
-        </body>
     </div>
 </div>
 <?php include 'includes/footer.php'; ?>

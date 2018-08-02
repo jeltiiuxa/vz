@@ -15,11 +15,15 @@
 /*    article, aside, details, figcaption, figure, footer,header,
 hgroup, menu, nav, section { display: block; } */
 </style>
-
+<br>
+<br>
 
 <?php 
 
 include('db.php');
+Print_r($_POST['timework4']);
+exit;
+
 $orgName=$_POST['orgName'];
 $categories=$_POST['categories'];
 $timework8=$_POST['timework8'];
@@ -31,13 +35,15 @@ $timework4=$_POST['timework4'];
 $timework5=$_POST['timework5'];
 $timework6=$_POST['timework6'];
 $timework7=$_POST['timework7'];
-
 $phone=$_POST['phone'];
 $address=$_POST['address'];
 $email=$_POST['email'];
 $tags=$_POST['tags'];
 $price=$_POST['price'];
 $sale=$_POST['sale'];
+
+
+
 
 $count = mysqli_query($connection, 
 "INSERT INTO org 
@@ -82,5 +88,7 @@ echo 'вы не зареганы';
 
 mysqli_close($connection);
 ?>
+<br>
+<br>
  Добавленная информация отправлена модераторам. Спасибо за внесенный вклад в нашу базу!
 
