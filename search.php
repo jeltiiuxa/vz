@@ -3,14 +3,21 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <style>
-
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+input[type=text]:focus {
+  width: 70%;
+}
     </style>
     <br>
     <br>
 
 <div class="search">
-    <input type="text" placeholder="что ищем? =)">
-    <button type="submit">
+    <input type="text" name="search" placeholder="что ищем? =)">
+    <br><button type="submit">
         <img src="find.gif" alt="картинка">
     </button>  
                     

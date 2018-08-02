@@ -29,7 +29,7 @@
     <hr>
     <li class="nav-item"><a href="vizitka.php">образец одной визитки</a></li>
     <li class="nav-item"><a href="addorg.php">ADDorg</a></li>
-    <li class="nav-item"><a href="sendmail.php">Обратная связь</a></li>
+    <li class="nav-item"><a href="sendmail.php">Обратная связь(без почтового сервера не работает)</a></li>
     <li class="nav-item"><a href="close.php">выход</a></li>
 </ul>
 

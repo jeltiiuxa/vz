@@ -17,7 +17,6 @@ hgroup, menu, nav, section { display: block; } */
 </style>
 <br>
 <br>
-
 <?php 
 
 include('db.php');
