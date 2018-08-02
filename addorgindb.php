@@ -25,13 +25,15 @@ $orgName=$_POST['orgName'];
 $categories=$_POST['categories'];
 $timework8=$_POST['timework8'];
 $timework9=$_POST['timework9'];
-$timework1=isset($_POST['timework1']);
-$timework2=isset($_POST['timework2']);
-$timework3=isset($_POST['timework3']);
-$timework4=isset($_POST['timework4']);
-$timework5=isset($_POST['timework5']);
-$timework6=isset($_POST['timework6']);
-$timework7=isset($_POST['timework7']);
+
+if (!empty($_POST['timework1'])){$timework1='checked';}else {$timework1='';}
+if (!empty($_POST['timework2'])){$timework2='checked';}else {$timework2='';}
+if (!empty($_POST['timework3'])){$timework3='checked';}else {$timework3='';}
+if (!empty($_POST['timework4'])){$timework4='checked';}else {$timework4='';}
+if (!empty($_POST['timework5'])){$timework5='checked';}else {$timework5='';}
+if (!empty($_POST['timework6'])){$timework6='checked';}else {$timework6='';}
+if (!empty($_POST['timework7'])){$timework7='checked';}else {$timework7='';}
+
 $phone=$_POST['phone'];
 $address=$_POST['address'];
 $email=$_POST['email'];

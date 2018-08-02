@@ -5,6 +5,8 @@
 <style>
 
     </style>
+    <br>
+    <br>
 
 <div class="search">
     <input type="text" placeholder="что ищем? =)">
