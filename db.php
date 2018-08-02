@@ -1,6 +1,20 @@
 <?php 
+/*
+$vzhost="localhost";
+$vzlogin="id6529924_root";
+$vzpass="12345";
+$vzbase="id6529924_vz";
+*/ 
+
+/* */
+$vzhost="localhost";
+$vzlogin="root";
+$vzpass="12345";
+$vzbase="vz";
+/**/
+
 $connection =mysqli_connect(
-    'localhost', 'id6529924_root', '12345', 'id6529924_vz');
+    $vzhost, $vzlogin, $vzpass, $vzbase);
 
 if ($connection==false)
 {

@@ -1,6 +1,5 @@
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/menu.php'; ?>
-
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- наш сайт будет подстариватся под разные типы дейвайсов-->
     <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">

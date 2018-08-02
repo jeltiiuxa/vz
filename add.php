@@ -2,35 +2,10 @@
 <?php include 'includes/menu.php'; ?>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
-<style>
-    input[type=text]{
-  width:100%;
-    }
-textarea{
-    width: 90%;
-    min-height: 10%;
-        }
-
-/*временный CSS -подумать*/
-
-/*наша рамочка с подписью - добавить обтекание и выбрать красивую рамку*/
-fieldset{
-    text-align:left;
-    border-radius: 7px 7px;
-    padding:5px;
-    }
-legend {
-    margin-right:50px; 
-
-    background: #bdbdbd;
-    border-radius: 3px;
-
-} 
-</style>
 <div class="container">
     <div class="row">
         Что Вы хотите добавить?              
-<body>
+        <body>
             <form action="addorgindb.php" method="POST" >
                 <div class="vizitka"> 
                     <fieldset> 
@@ -83,7 +58,7 @@ legend {
                                     Контакты:
                                 </legend>
                                 <div class="contacts"> 
-                                    <input type="tel"placeholder="телефон" name="phone"required>
+                                    <input type="tel"placeholder="телефон, телефон" name="phone"required>
                                     <input type="text"placeholder="адрес" name="address">
                                     <input type="email"placeholder="e-mail" name="email">
                                 </div>
@@ -145,10 +120,7 @@ legend {
         </body>
     </div>
 </div>
-
-
-
- <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
 
 
 

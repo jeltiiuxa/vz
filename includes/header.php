@@ -2,8 +2,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- наш сайт будет подстариватся под разные типы дейвайсов-->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/vz/css/style.css">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 <div class="header">    
     <div class="conteiner">

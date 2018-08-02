@@ -74,51 +74,37 @@ footer {
   }
 /*наш хеадер одним цветом с меню*/
 .header {
+    position: fixed;
 height: 35px;
 background-color: #666;
 color: #fff;
 text-align: center;
 margin-top:0px;
-
 width: 100%;
 }
 
-h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
-    }
+h1 {margin:0;
+    padding:0;
+    font-size: 2em;}
 
-a, a:hover {color: black;}
-
+.header a, .header a:hover {color: black;}
 
 /*временный CSS -подумать*/
-.timework input{
-    background-color: #fff;width: 20%;
-                }
-
-input{
-    width: 100%;
-    }
-textarea{
-    width: 90%;
-    min-height: 10%;
-        }
+textarea{width: 90%;
+        min-height: 10%;}
 
 /*временный CSS -подумать*/
 
 /*наша рамочка с подписью - добавить обтекание и выбрать красивую рамку*/
-fieldset{
-    text-align:left;
-    border-radius: 7px 7px;
-    padding:5px;
-    }
+fieldset{text-align:left;
+        border-radius: 7px 7px;
+        padding:5px; }
 legend {
-    margin-right:50px; 
-
-    background: #bdbdbd;
-    border-radius: 3px;
-
-} 
+        margin-right:50px; 
+        background: #bdbdbd;
+        border-radius: 3px;} 
 /*конец рамочки с подписью*/
+
+input[type=text]{width:100%;}
+input[name="timework8"], [name="timework9"] {width:30%;background-color: #fff;}
 html, div { overflow-x: hidden; }
