@@ -37,7 +37,7 @@
                                     <div class="row">                                      
                                     </div>
                                         <div>
-                                            <input type="checkbox" name="timework1"  checked>Пн
+                                            <input type="checkbox" name="timework1" checked>Пн
                                             <input type="checkbox" name="timework2"  checked>Вт
                                             <input type="checkbox" name="timework3"  checked>Ср
                                             <input type="checkbox" name="timework4" checked>Чтв

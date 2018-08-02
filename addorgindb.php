@@ -21,20 +21,17 @@ hgroup, menu, nav, section { display: block; } */
 <?php 
 
 include('db.php');
-Print_r($_POST['timework4']);
-exit;
-
 $orgName=$_POST['orgName'];
 $categories=$_POST['categories'];
 $timework8=$_POST['timework8'];
 $timework9=$_POST['timework9'];
-$timework1=$_POST['timework1'];
-$timework2=$_POST['timework2'];
-$timework3=$_POST['timework3'];
-$timework4=$_POST['timework4'];
-$timework5=$_POST['timework5'];
-$timework6=$_POST['timework6'];
-$timework7=$_POST['timework7'];
+$timework1=isset($_POST['timework1']);
+$timework2=isset($_POST['timework2']);
+$timework3=isset($_POST['timework3']);
+$timework4=isset($_POST['timework4']);
+$timework5=isset($_POST['timework5']);
+$timework6=isset($_POST['timework6']);
+$timework7=isset($_POST['timework7']);
 $phone=$_POST['phone'];
 $address=$_POST['address'];
 $email=$_POST['email'];
