@@ -2,6 +2,12 @@
 <?php include 'includes/menu.php'; ?>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
+<style>
+</style>
+
+
+
+
 <div class="container">
     <div class="row">
         Что Вы хотите добавить?              
@@ -52,8 +58,11 @@
                                 <legend align="left">
                                     Контакты:
                                 </legend>
+                                <!--1 добавить кнопку добавления поля телефона, 2 - скрыть два полья телефона из виду -->
                                 <div class="contacts"> 
-                                    <input type="tel"placeholder="телефон, телефон" name="phone"required>
+                                    <input type="tel"placeholder="телефон" name="phone1"required>
+                                    <input type="tel"placeholder="телефон" name="phone2">                 
+                                    <input type="tel"placeholder="телефон" name="phone3">
                                     <input type="text"placeholder="адрес" name="address">
                                     <input type="email"placeholder="e-mail" name="email">
                                 </div>

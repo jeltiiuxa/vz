@@ -33,7 +33,9 @@ if (!empty($_POST['timework5'])){$timework5='checked';}else {$timework5='';}
 if (!empty($_POST['timework6'])){$timework6='checked';}else {$timework6='';}
 if (!empty($_POST['timework7'])){$timework7='checked';}else {$timework7='';}
 
-$phone=$_POST['phone'];
+$phone1=$_POST['phone1'];
+$phone2=$_POST['phone2'];
+$phone3=$_POST['phone3'];
 $address=$_POST['address'];
 $email=$_POST['email'];
 $tags=$_POST['tags'];
@@ -56,7 +58,7 @@ timework6,
 timework7,
 timework8,
 timework9, 
-phone, 
+phone1, phone2, phone3, 
 tags, 
 price) 
 VALUES 
@@ -71,7 +73,7 @@ VALUES
 '$timework7', 
 '$timework8', 
 '$timework9', 
-'$phone', 
+'$phone1', '$phone2', '$phone3', 
 '$tags', 
 '$price')");
 
