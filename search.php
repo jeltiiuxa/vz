@@ -9,19 +9,52 @@ input[type=text] {
   transition: width .35s ease-in-out;
 }
 input[type=text]:focus {
-  width: 70%;
+  width: 100%;
 }
     </style>
     <br>
     <br>
-
+<form action="searchout.php" method="POST">
 <div class="search">
-    <input type="text" name="search" placeholder="что ищем? =)">
-    <br><button type="submit">
-        <img src="find.gif" alt="картинка">
-    </button>  
-                    
+    <input type="text" name="query" placeholder="что будем искать? =)">             
 </div>   
+          <!--КНОПКА ОТПРАВИТЬ И СБРОС-->
+          <div class="row">
+                            <div class="col-3 col-xl-3">
+                            &nbsp;
+                            </div>
+                            <div class="col-3 col-xl-3">
+                                <input type="submit"value="Сохранить"  >
+                            </div>
+                            <div class="col-3 col-xl-3">
+                            <input type="reset" value="Очистить">
+                            </div>
+                            <div class="col-3 col-xl-3">
+                            &nbsp;
+                            </div>
+                        </div>
+                        <!--КНОПКА ОТПРАВИТЬ И СБРОС-->
+
+</form>
+
+                
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <code>
 d:\laragon\www\viz (master) <br>
 λ cd ..<br>
