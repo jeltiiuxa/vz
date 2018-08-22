@@ -20,3 +20,25 @@ searchout.php - ответ сервера по поиску
     раздел личного кабинета:
 lk.php
 
+
+
+<?php 
+/*запрос на поиск */
+$querycl = mysqli_query($connection, "SELECT * FROM `org` WHERE `orgName` LIKE '%$query%'"); 
+
+?>
+
+
+куски кода - хлам
+
+    echo'' .'<hr class="hrbold">';
+
+    
+echo 
+'<fieldset> <legend align="left">' .$qyerysrv['orgName']. 
+'</legend>'.$qyerysrv['categories'].'<br>
+ <a href="tel:'.$qyerysrv['phone1'] . '">'.$qyerysrv['phone1'].'</a>. '
+ .'<a href="tel:'.$qyerysrv['phone2'] . '">'.$qyerysrv['phone2'].'</a> <br> '
+ 
+ . $qyerysrv['timework8'].' '.$qyerysrv['timework9'].'
+</fieldset>';

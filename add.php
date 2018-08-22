@@ -4,10 +4,6 @@
 <link rel="stylesheet" href="css/style.css">
 <style>
 </style>
-
-
-
-
 <div class="container">
     <div class="row">
         Что Вы хотите добавить?              
@@ -124,28 +120,3 @@
     </div>
 </div>
 <?php include 'includes/footer.php'; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
