@@ -12,23 +12,16 @@ input[type=text]:focus {
   width: 100%;
 }
 .code { 
-    display:block;
-    position:relative;
-    left:30%;
-    width:500px;
-    border-left:solid red;border-right:solid red;}
+    margin-left:30px;
+     border-left:solid red;border-right:solid red;}
     </style>
     <br>
     <br>
-    
+<div class="container">
+    <div class="row">
 
-<form name="some" ction="searchout.php">
-	<input type=text name="stroka">
-	<select name="logic">
-		<option value="OR">искать любое из слов
-		<option value="AND">искать все слова
-	</select>
-</form>
+    </div>
+</div>
 
 <form action="searchout.php" method="POST">
     <div class="search">
@@ -52,41 +45,33 @@ input[type=text]:focus {
                         <!--КНОПКА ОТПРАВИТЬ И СБРОС-->
 
 </form>
+ <div class="comtainer">
+    <div class="row">
+        <div class="code col-10">
 
-                
-               
+                <p> УДАЛЮ</p>
+                <code>
+                    d:\laragon\www\viz (master) <br>
+                    λ cd ..<br>
+                    d:\laragon\www<br>
+                    λ git clone https://github.com/jeltiiuxa/vz.git<br>
+                    d:\laragon\www<br>
+                    λ cd vz<br>
+                    λ git status<br>
+                    λ git add .<br>
+                    λ git status<br>
+                    λ git commit -m "add files"<br>
+                    d:\laragon\www\vz (master)<br>
+                    λ git push<br>
+                    git pull<br>
+                </code>
+
+        </div>
+    </div>
+</div>            
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="code">
-    <p> УДАЛЮ</p>
-<code>
-d:\laragon\www\viz (master) <br>
-λ cd ..<br>
-d:\laragon\www<br>
-λ git clone https://github.com/jeltiiuxa/vz.git<br>
-d:\laragon\www<br>
-λ cd vz<br>
-λ git status<br>
-λ git add .<br>
-λ git status<br>
-λ git commit -m "add files"<br>
-d:\laragon\www\vz (master)<br>
-λ git push<br>
-git pull<br>
-</code></div>
 
 
 

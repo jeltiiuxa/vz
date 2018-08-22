@@ -20,6 +20,7 @@ searchout.php - ответ сервера по поиску
     раздел личного кабинета:
 lk.php
 
+<<<<<<< HEAD:info.php
 
 
 <?php 
@@ -42,3 +43,6 @@ echo
  
  . $qyerysrv['timework8'].' '.$qyerysrv['timework9'].'
 </fieldset>';
+=======
+ uh
+>>>>>>> a786640243112a1f9afed20193638b3baa9e9af0:info

@@ -37,21 +37,11 @@ margin-top: 30px;
 /* .row h100 {
    margin-bottom: 0px;
    border:3px dashed red;} */
-
-
-
 /* div {
-
     background-color: rgb(255, 245, 232);
     border: solid 1px black;
 }
  */
-
- 
- 
-        
-
-
 /* float:left уменшает и ставит в левую чать экрана*/  
 
 /*название ТОО/услуги*/
@@ -61,8 +51,7 @@ margin-top: 30px;
 footer {
     border:3px dashed blue;
 }
-
- /*выделяем все участки и границы красным*/
+/*выделяем все участки и границы красным*/
  Body {
     text-align: center;
     border: 3px dashed #645a4e;
@@ -74,7 +63,7 @@ footer {
   }
 /*наш хеадер одним цветом с меню*/
 .header {
-    position: fixed;
+position: fixed;
 height: 35px;
 background-color: #666;
 color: #fff;
