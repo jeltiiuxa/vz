@@ -3,10 +3,10 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <style>
-body {text-align:center;}
-#lkinlogin, #lkinpass {width:50%;}
+body {text-align:center;padding:0px;margin:0px;}
+#lkreglogin, #lkinpass {width:50%;}
 .error{background:salmon;}
-
+p~p,.zaglk {margin:0px;}
 </style>
 <br><br>
 <?php 
@@ -59,22 +59,21 @@ if( isset($data['do_signup']) )
 }
 ?>
 
-
 <form action="signup.php" method="POST">
     <p>
-        <p><strong>Ваш логин:</strong></p>  
-        <input type="text" name="login" value="<?php echo @$data['login'];?>">
+        <p class="zaglk"><strong>Введите логин:</strong></p>  
+        <input type="text" name="login" id="lkreglogin" value="<?php echo @$data['login'];?>">
     </p>
     <p>
-        <p><strong>Ваш email:</strong></p>
+        <p class="zaglk"><strong>Введите email:</strong></p>
         <input type="email" name="email" value="<?php echo @$data['email'];?>">
     </p>
     <p>
-        <p><strong>Ваш пароль</strong></p>
+        <p class="zaglk"><strong>Введите Пароль</strong></p>
         <input type="password" name="password"value="<?php echo @$data['password'];?>">
     </p>
     <p>
-        <p><strong>Ввведите ва ш пароль еще раз</strong></p>
+        <p class="zaglk"><strong>Введите Ваш пароль еще раз</strong></p>
         <input type="password" name="password_2"value="<?php echo @$data['password_2'];?>">
     </p>
     <p>

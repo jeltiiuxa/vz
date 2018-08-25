@@ -7,6 +7,7 @@ body {text-align:center;}
 #lkinlogin, #lkinpass {width:50%;}
 </style>
 <br><br>
+
 <?php 
 $data = $_POST;
 //если нажата кнопка do_login
@@ -20,7 +21,7 @@ if (isset($data['do_login']) )
         if(password_verify($data['password'], $user->password)) 
         {//все хорошо, логиним полльзователя
             $_SESSION['logged_user'] = $user;
-            echo '<div style="color:green;">Вы авторизованы! Можете перейти на <a href="/vz/"> главную</a> страницу! </div><hr>';
+            echo '<div style="color:green;">Вы авторизованы! Можете перейти на <a href="/"> главную</a> страницу! </div><hr>';
         }   else 
         {
             $errors[]= 'неверно введен пароль!';
@@ -34,7 +35,14 @@ if (isset($data['do_login']) )
         echo '<div style="color:red;">'.array_shift($errors).'</div><hr>';
     }
 }
-?>
+
+if(isset($_SESSION['logged_user'])):?>
+аватарка<br>
+Привет, <?php echo $_SESSION['logged_user']->login; ?>!
+<br>
+<a href="logout.php">Выйти</a><hr>
+<?php  else : ?>
+
 <form action="login.php" method="post">
     <p>
       <p ><strong>Логин:</strong></p>
@@ -50,3 +58,7 @@ if (isset($data['do_login']) )
     <button type="submit" name="do_login">Войти</button>
     </p>
 </form>
+
+<a href="signup.php">Зарегистрироваться</a>
+
+<?php endif; ?>
